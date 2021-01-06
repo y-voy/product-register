@@ -18,7 +18,7 @@ services:
       - db
     links:
       - db
-
+      
   db:
     image: postgres
     volumes:
